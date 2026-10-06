@@ -1,0 +1,32 @@
+# Core
+pandas
+numpy
+matplotlib
+markdown
+
+# Task 1 - Financial data + Groq LLM
+yfinance
+groq
+pydantic>=2.0
+
+# Task 3 - Agentic stack
+langchain-core
+langchain-groq
+langgraph
+duckduckgo-search
+
+# Task 2 - dataset generation + evaluation (CPU-friendly)
+rouge-score
+chromadb
+
+# Task 2 - fine-tuning stack (requires a CUDA GPU runtime, e.g. Colab T4)
+torch
+transformers
+peft
+trl
+bitsandbytes
+datasets
+accelerate
+
+# Task 2 - optional experiment tracking (uncomment if you set up a free W&B account)
+# wandb
