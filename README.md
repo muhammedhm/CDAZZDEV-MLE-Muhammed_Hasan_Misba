@@ -1,4 +1,4 @@
-# CDAZZDEV-MLE-MuhammedHasanMisba
+# CDAZZDEV-MLE-Muhammed_Hasan_Misba
 
 Submission for the Ceylon Dazzling Dev Holding (Pvt.) Ltd. Senior Machine
 Learning Engineer Technical Assessment.
