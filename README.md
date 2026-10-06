@@ -6,7 +6,7 @@ Learning Engineer Technical Assessment.
 Tasks completed: **all three** — Task 1 (Financial AI), Task 2 (Generative
 AI fine-tuning), Task 3 (Agentic Workflows).
 
-LLM provider: **Groq** throughout (`llama-3.3-70b-versatile` by default,
+LLM provider: **Groq** throughout (`openai/gpt-oss-120b` by default,
 configurable via `GROQ_MODEL` / `GROQ_TEACHER_MODEL` / `GROQ_JUDGE_MODEL`).
 
 ## Repository layout
@@ -116,7 +116,7 @@ at the bottom of each script, or by importing the module functions directly.
 - **Task 3C** layers short-term (in-process dict) memory over a persistent,
   date+ticker-keyed JSON cache on disk, so a second run on the same day
   skips re-executing the whole agent pipeline.
-- **Task 2A** uses a *different* Groq model (`llama-3.3-70b-versatile`) as
+- **Task 2A** uses a *different* Groq model (`openai/gpt-oss-120b`) as
   teacher than the student being fine-tuned (`Phi-3-mini-4k-instruct`),
   per the assessment's explicit rule, and sweeps sector × risk-category ×
   writing-style combinations so the dataset doesn't collapse into
