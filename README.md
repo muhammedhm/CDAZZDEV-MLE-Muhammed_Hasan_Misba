@@ -63,7 +63,7 @@ CDAZZDEV-MLE-MuhammedHasanMisba/
 ## Setup (local / script mode)
 
 ```bash
-git clone https://github.com/<you>/CDAZZDEV-MLE-MuhammedHasanMisba.git
+git clone https://github.com/muhammedhm/CDAZZDEV-MLE-MuhammedHasanMisba.git
 cd CDAZZDEV-MLE-MuhammedHasanMisba
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
